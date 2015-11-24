@@ -20,6 +20,11 @@ public class PrideBoard {
 	public String getP_title() {
 		return p_title;
 	}
+	@Override
+	public String toString() {
+		return "PrideBoard [p_num=" + p_num + ", p_title=" + p_title + ", p_date=" + p_date + ", p_content=" + p_content
+				+ ", p_hit=" + p_hit + ", p_picture1=" + p_picture1 + ", p_picture2=" + p_picture2 + "]";
+	}
 	public void setP_title(String p_title) {
 		this.p_title = p_title;
 	}
