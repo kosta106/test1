@@ -46,4 +46,9 @@ public class QnaBoard {
 	public void setM_id(String m_id) {
 		this.m_id = m_id;
 	}
+	@Override
+	public String toString() {
+		return "QnaBoard [q_num=" + q_num + ", q_title=" + q_title + ", q_date=" + q_date + ", q_content=" + q_content
+				+ ", q_hit=" + q_hit + ", m_id=" + m_id + "]";
+	}
 }
